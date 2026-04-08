@@ -39,6 +39,21 @@ pip install -e .
 See:
 - `docs/claude_code_mcp_config.example.json`
 
+Put that config in one of:
+- `~/.claude.json` for user-level Claude Code config
+- `.claude/settings.json` for project-level Claude Code config
+
+Use whichever location your Claude Code installation already reads.
+
+## Verify the MCP server before Claude Code
+
+```bash
+cd hrevn-mcp-server
+hrevn-mcp-server --version
+hrevn-mcp-server --list-tools
+hrevn-mcp-server --self-test
+```
+
 ## Recommended first test
 
 Ask Claude Code to call `baseline_check` with the payload in:
