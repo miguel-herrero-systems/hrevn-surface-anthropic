@@ -44,7 +44,7 @@ See:
 - `docs/claude_code_mcp_config.example.json`
 
 Put that config in one of:
-- `~/.claude.json` for user-level Claude Code config
+- `~/.claude/settings.json` for user-level Claude Code config
 - `.claude/settings.json` for project-level Claude Code config
 
 Use whichever location your Claude Code installation already reads.
@@ -76,3 +76,6 @@ The expected result is a real `BaselineResult` from the live managed API.
 
 For a real execution record of this path, see:
 - `docs/ALPHA_EXECUTION_TRACE.md`
+
+For the concise technical alpha path, see:
+- `docs/ANTHROPIC_ALPHA_TESTING.md`
