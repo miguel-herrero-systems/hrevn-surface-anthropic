@@ -1,0 +1,5 @@
+{
+  "title": "HREVN Skill Output Schema Placeholder",
+  "type": "object",
+  "description": "Placeholder schema for Anthropic packaging review. Final schema depends on the exact skill."
+}
