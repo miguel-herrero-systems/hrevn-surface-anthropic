@@ -73,3 +73,6 @@ Ask Claude Code to call `baseline_check` with the payload in:
 - `examples/baseline_check_request.json`
 
 The expected result is a real `BaselineResult` from the live managed API.
+
+For a real execution record of this path, see:
+- `docs/ALPHA_EXECUTION_TRACE.md`
