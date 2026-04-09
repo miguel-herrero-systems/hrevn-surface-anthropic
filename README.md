@@ -1,8 +1,8 @@
-# HREVN Anthropic Skills
+# HREVN for Claude Code - Verifiable Workflow State via MCP and Skills
 
-**Un solo núcleo. Tres superficies. Mismo resultado verificable.**
-
-This repo is the Anthropic-facing HREVN surface: three skills plus a local runner, with an MCP path now available for Anthropic-first tool use against the live HREVN managed runtime.
+This repo is the Anthropic-facing HREVN surface for Claude Code: skills, a local
+runner, and an MCP path for resumable workflows, tamper-evident receipts, and
+audit-ready traceability against the live HREVN managed runtime.
 
 ## Why HREVN
 
@@ -48,12 +48,21 @@ resume through the runner bridge to the managed runtime.
 ## Quick Start
 
 ```bash
-export HREVN_API_KEY="replace-me"
+git clone https://github.com/ai-human-andalusia/hrevn-surface-anthropic
+cd hrevn-surface-anthropic
+export HREVN_API_KEY="<issued-alpha-key>"
 python3 scripts/hrevn_anthropic_runner.py baseline-check \
   --input examples/baseline_check_request.json
 ```
 
 The command above should return a `BaselineResult` JSON.
+
+For the MCP-first and guided alpha path, see:
+- `docs/ANTHROPIC_ALPHA_TESTING.md`
+- `docs/MCP_USAGE.md`
+
+Alpha keys are issued out-of-band for testing rather than embedded in the
+public repo.
 
 ## Optional MCP path
 
