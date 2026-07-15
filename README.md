@@ -62,7 +62,7 @@ hrevn-anthropic baseline
 If you prefer the repo checkout instead, you can still do:
 
 ```bash
-git clone https://github.com/ai-human-andalusia/hrevn-surface-anthropic
+git clone https://github.com/miguel-herrero-systems/hrevn-surface-anthropic
 cd hrevn-surface-anthropic
 pipx install .
 ```
@@ -88,7 +88,7 @@ public repo.
 If you want Claude Code to discover HREVN as MCP tools rather than only through
 skill guidance plus a local runner, use the companion MCP server at:
 
-- `https://github.com/ai-human-andalusia/hrevn-mcp-server`
+- `https://github.com/miguel-herrero-systems/hrevn-mcp-server`
 
 See:
 - `docs/MCP_USAGE.md`

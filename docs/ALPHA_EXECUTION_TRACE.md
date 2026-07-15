@@ -5,8 +5,8 @@ managed runtime through the HREVN MCP server.
 
 ## Public repos
 
-- `https://github.com/ai-human-andalusia/hrevn-surface-anthropic`
-- `https://github.com/ai-human-andalusia/hrevn-mcp-server`
+- `https://github.com/miguel-herrero-systems/hrevn-surface-anthropic`
+- `https://github.com/miguel-herrero-systems/hrevn-mcp-server`
 
 ## Live backend
 

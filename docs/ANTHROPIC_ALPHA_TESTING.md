@@ -2,11 +2,11 @@
 
 ## Public repo
 
-- `https://github.com/ai-human-andalusia/hrevn-surface-anthropic`
+- `https://github.com/miguel-herrero-systems/hrevn-surface-anthropic`
 
 ## Companion MCP server
 
-- `https://github.com/ai-human-andalusia/hrevn-mcp-server`
+- `https://github.com/miguel-herrero-systems/hrevn-mcp-server`
 
 ## Live backend
 
@@ -37,7 +37,7 @@ Expected result:
 If you want the repo checkout instead, use:
 
 ```bash
-git clone https://github.com/ai-human-andalusia/hrevn-surface-anthropic
+git clone https://github.com/miguel-herrero-systems/hrevn-surface-anthropic
 cd hrevn-surface-anthropic
 pipx install .
 ```
@@ -45,7 +45,7 @@ pipx install .
 ## MCP setup
 
 ```bash
-git clone https://github.com/ai-human-andalusia/hrevn-mcp-server
+git clone https://github.com/miguel-herrero-systems/hrevn-mcp-server
 cd hrevn-mcp-server
 pip install -e .
 ```

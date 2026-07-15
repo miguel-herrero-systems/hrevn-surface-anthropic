@@ -27,7 +27,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://hrevn.com"
-Repository = "https://github.com/ai-human-andalusia/hrevn-surface-anthropic"
+Repository = "https://github.com/miguel-herrero-systems/hrevn-surface-anthropic"
 
 [project.scripts]
 hrevn-anthropic = "hrevn_anthropic_runner.cli:main"

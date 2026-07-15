@@ -37,7 +37,7 @@ hrevn-anthropic baseline
 Repo-local fallback:
 
 ```bash
-git clone https://github.com/ai-human-andalusia/hrevn-surface-anthropic
+git clone https://github.com/miguel-herrero-systems/hrevn-surface-anthropic
 cd hrevn-surface-anthropic
 pipx install .
 ```
